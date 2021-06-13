@@ -1,0 +1,79 @@
+
+.que-paper-container{
+   margin-top: 15rem;
+   width: 100%;
+}
+
+.slick-slide {
+    transition: all ease-in-out .3s;
+    opacity: .1;
+  }
+  
+  .slick-active {
+    opacity: .5;
+  }
+  
+  .slick-current {
+    opacity: 1;
+  }
+
+.slick-dots{
+    position: absolute;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .slick-dots li{
+    list-style: none;
+    margin: 20px 10px;
+    border: none;
+    outline: none;
+  }
+  
+  .slick-dots button{
+    background-color: #000000;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    height: 20px;
+    width: 20px; 
+  }
+
+  .card-row .card{
+      position: relative;
+      border: 1px solid #a000fb;
+      box-shadow: 0 0 15px rgba(0,0,0,0.6);
+  }
+  .card .card-body {
+      position: relative;
+      text-align: center;
+  }
+
+  .card-row .card .card-body .card-title{
+      color: #a000fb;
+      font-weight: 800;
+  }
+  
+  .card-row .card .card-body a{
+    outline: none;
+    border: none;
+    letter-spacing: 1.2px;
+    cursor: pointer;
+  }
+
+  .card-body .btn-view{
+      background-color: #a000fb;
+      color: #fff;
+
+  }
+
+
+  .card-body .btn-view:hover{
+    box-shadow: 0 0 5px rgba(0,0,0,0.4);
+    transform: scale(.95);
+    transition: all .2s ease;
+  } 
+  

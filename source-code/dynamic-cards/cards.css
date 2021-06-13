@@ -1,0 +1,153 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin-bottom: 100px;
+}
+
+.section-container{
+    position: relative;
+}
+
+.section-container .backBtn{
+    position: absolute;
+    font-size: 1.3rem;
+    left: 5%;
+    top: 40px;
+   
+}
+
+.section-container .main-container{
+    padding-top: 5rem;
+}
+
+.main-container .select-container{
+    display: flex;
+}
+
+.section-container .form-select{
+    margin: 20px 10px;
+    border-radius: 10px;
+    box-shadow: none;
+    outline: none;
+    font-size: 1.1rem;
+}
+
+
+.section-container .form-select:active{
+    box-shadow: none;
+    outline: none;
+}
+
+.section-container .form-select:focus{
+    box-shadow: 0 0 5px #a000fb;
+    border: 1px solid #a000fb;
+}
+
+.section-container .form-select option{
+    font-size: 1.1rem;
+    margin: 5px 0;
+}
+
+
+.section-container .form-select option:hover{
+   background-color: #a000fb;   
+}
+
+.card{
+    margin: 15px 0;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.22),0 10px 10px rgba(0,0,0,0.22);
+}
+
+.card:hover{
+    cursor: pointer;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.22),0 10px 20px rgba(0,0,0,0.22);
+    transform: scale(.95);
+    transition: transform .2s linear;
+}
+
+/* .card {
+    display: none;
+}
+
+.card.view{
+    display: block;
+} */
+
+
+
+.card-body {
+    text-align: center;
+}
+
+.card-body .card-title{
+      margin: 14px 0;
+}
+
+.card-body .ques-year{
+    font-weight: 400;
+    font-style: italic;
+
+}
+
+.card-body .ques-name{
+    font-weight: 450;
+}
+
+.card-body .btn{
+    margin: 10px 0;
+    border: none;
+    letter-spacing: 1px;
+}
+
+.card-body .btn:active{
+    box-shadow: none;
+    outline: none;
+}
+
+.card-body .btn-view{
+    background-color: #a000fb;
+    box-shadow: none;
+    outline: none;
+}
+
+.card-body .btn-download{
+    box-shadow: none;
+    outline: none;
+    /* position: absolute;
+    right: 0; */
+}
+
+
+.backBtn a{
+    text-decoration: none;
+    color: #a000fb;
+    transition: .5s ease-out;
+}
+
+.backBtn a:hover{
+    text-shadow: 0 3px 5px rgba(0,0,0,0.22),  0 3px 5px rgba(0,0,0,0.22);
+}
+
+.backBtn a i{
+    margin-right: 2px;
+}
+/* 
+@media (max-width:580px){
+    .section-container .backBtn{
+        top: 1%;
+    }
+} */
+
+/* @media (max-width:480px) {
+
+    .select-container #filterExam{
+        display: block;
+    }
+    
+} */

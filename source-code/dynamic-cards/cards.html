@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- fontawesome - cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+    <title>Cards</title>
+
+    <link rel="stylesheet" href="./cards.css">
+    <script src="./cards.js" defer></script>
+</head>
+
+<body>
+       <section class="container-fluid section-container">
+                <div class="backBtn">
+                    <a href="../index.html"><i class="fas fa-arrow-left"></i>Back</a>
+                </div>
+
+            <div class="container main-container">
+                <div class="select-container">
+
+                    <select class="form-select filterTags" aria-label="Default select example" style="width: 18rem;" id="filterExam"><!--onchange="quesPaper()"-->
+                        <option selected disabled >Select Question</option>
+                        <option class="group-1" value="Group1">Group 1</option>
+                        <option class="group-2" value="Group2">Group 2</option>
+                        <option class="group-4" value="Group4">Group 4</option>
+                    </select>
+
+                    <select class="form-select filterTags" aria-label="Default select example" style="width: 18rem;" id="filterExamYear"> <!--onchange="quesPaperYear()"-->
+                        <option selected disabled>Select Year</option>
+                        <option value="2015" >2015</option>
+                        <option value="2016">2016</option>
+                        <option value="2017">2017</option>
+                        <option value="2018">2018</option>
+                        <option value="2019">2019</option>
+                    </select>
+                    
+                </div>
+
+               <div class="container ">
+                    <div class="row row-cols-sm-2 row-cols-1  row-cols-xl-4 row-cols-lg-3 row-cols-md-2 gx-5 gy-4 " id="card-row-container">
+                    </div>
+                </div>
+
+            </div>
+       </section>
+
+
+        <!-- Bootstrap and popper.js -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
