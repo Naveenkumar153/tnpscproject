@@ -1,4 +1,4 @@
 # tnpscproject
 
 
-Students studing TNPSC will benefit form this program
+Students studing TNPSC will benefit form this project
